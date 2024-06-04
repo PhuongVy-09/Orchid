@@ -2,7 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './styles.scss'
-import Orchid from '../Orchids'
+import Orchid from '../OrchidsItem'
 
 OrchidList.propTypes = {
     orchidsList: PropTypes.array.isRequired,
@@ -13,8 +13,8 @@ function OrchidList(props) {
     return (
         <ul className="orchid-list">
             {orchidsList.map(orchid => (
-                <li key={Orchid.id}>
-                    <Orchid orchid={Orchid} />
+                <li key={orchid.id}>
+                    <Orchid orchid={orchid} />
                 </li>
             ))}
         </ul>

@@ -1,12 +1,14 @@
 
 .product-card{
-    background-color: #f0efef;
-    display: flex;
-    margin-top: 30px;
+    
+   background: #fff;
+   border: .1rem solid rgba(0,0,0,2);
+   border-radius: .3rem;
+   box-shadow: var(--box-shadow);
     & img{
         padding-left: 23%;
         object-fit: cover;
-        width: 1000px;
+        width: 800px;
     }
 }
 
@@ -14,7 +16,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 20px;
-    background-color: red;
+    background-color: #CC66FF;
     height: 40px;
     width: 200px;
     display: flex;
@@ -25,17 +27,16 @@
 
 .product-details{
     margin:40px;
-    font-size: 25px;
+    font-size: 20px !important;
+    color: #777575;
+    font-family: monospace;
     padding-left: 20px;
 }
 
-.product-price{
-    padding: 30px 0;
-    color:rgb(243, 202, 20);
-    font-weight: bold;
-}
+
 
 .product-bottom-details{
+    margin: 40px;
     font-size: 20px !important;
     color: #777575;
     

@@ -1,0 +1,33 @@
+.orchid{
+    display: flex;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+    &__name{
+        padding: 7px 0;
+    }
+    
+    &__detail{
+        background-color:#CC99FF;
+    }
+    &__link{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.orchid__column {
+    padding: 20px;
+    text-align: center;
+}
+
+.orchid__card {
+    background: #fff;
+   border: .1rem solid rgba(0,0,0,2);
+   border-radius: .3rem;
+   box-shadow: var(--box-shadow);
+}

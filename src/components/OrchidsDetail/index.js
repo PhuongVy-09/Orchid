@@ -18,11 +18,16 @@ function Detail(props) {
                     <img src={`../${orchid.img}`} alt='' />
                 </div>
             </div>
+            
             <div className='product-details'>
-                <h4>{orchid.origin}</h4>
                 
-                <div className='product-bottom-details'>{orchid.category}</div>
+                <h4>Origin: {orchid.origin}</h4>
+                <h4>Rating: {orchid.rating}</h4>
+                <h4>isSpecial: {orchid.isSpecial}</h4>
+                <h4>Color: {orchid.color}</h4>
+                <h4>Category: {orchid.category}</h4>
             </div>
+           
 
         </div>
     )

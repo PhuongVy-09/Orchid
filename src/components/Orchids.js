@@ -1,14 +1,12 @@
 import React from 'react'
 import OrchidList from './OrchidsList'
-
-
+import { Orchid } from '../shared/Orchid'
 
 function OrchidFeature(props) {
 
   return (
     <div>
-      
-      <OrchidList orchidsList={OrchidList}/>
+      <OrchidList orchidsList={Orchid}/>
     </div>
   )
 }
