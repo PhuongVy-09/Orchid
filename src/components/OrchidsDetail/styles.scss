@@ -1,0 +1,42 @@
+
+.product-card{
+    background-color: #f0efef;
+    display: flex;
+    margin-top: 30px;
+    & img{
+        padding-left: 23%;
+        object-fit: cover;
+        width: 1000px;
+    }
+}
+
+.badge{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.product-details{
+    margin:40px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.product-price{
+    padding: 30px 0;
+    color:rgb(243, 202, 20);
+    font-weight: bold;
+}
+
+.product-bottom-details{
+    font-size: 20px !important;
+    color: #777575;
+    
+}

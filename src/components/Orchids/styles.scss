@@ -1,0 +1,26 @@
+.player{
+    text-align: center;
+    background-color: #f0efef;
+    &__img{
+        & img {
+            width: 100%;
+            object-fit: cover;
+            height: 300px;
+        }
+    }
+    &__name{
+        padding: 7px 0;
+    }
+    &__club{
+        font-weight: normal;
+        color: #5c5b5b;
+        padding-bottom: 7px;
+    }
+    &__detail{
+        background-color:black;
+    }
+    &__link{
+        text-decoration: none;
+        color: #fff;
+    }
+}
